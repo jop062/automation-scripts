@@ -1,0 +1,16 @@
+__pycache__/     ← compiled Python bytecode, auto-generated
+*.py[cod]        ← .pyc, .pyo, .pyd compiled files
+.venv/ venv/     ← virtual environment folders (huge, don't upload)
+dist/ build/     ← package build folders
+
+node_modules/    ← installed npm packages (huge, don't upload)
+npm-debug.log    ← error logs
+
+backups/         ← folders your scripts CREATE (don't upload outputs)
+log_archives/
+*.tar.gz         ← backup zip files your scripts generate
+cleaned_*.csv    ← cleaned CSV outputs your scripts generate
+report.txt       ← profiler reports your scripts generate
+
+.DS_Store        ← Mac hidden folder metadata file
+Thumbs.db        ← Windows thumbnail cache file
